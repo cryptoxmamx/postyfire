@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #09090b;
+  --bg-gradient-1: rgba(124, 58, 237, 0.15);
+  --bg-gradient-2: rgba(56, 189, 248, 0.15);
+  --panel-bg: rgba(24, 24, 27, 0.6);
+  --panel-border: rgba(255, 255, 255, 0.08);
+  --panel-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --headline: #ffffff;
+  --text: #a1a1aa;
+  --muted-strong: #71717a;
+  --accent-primary: #8b5cf6;
+  --accent-secondary: #38bdf8;
+  --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  --success: #10b981;
+  --danger: #ef4444;
+  --sans: 'Plus Jakarta Sans', sans-serif;
+  --display: 'Outfit', sans-serif;
+  
+  font: 16px/1.6 var(--sans);
+  color: var(--text);
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+  filter: blur(80px);
+  opacity: 0.8;
+}
+
+body::before {
+  top: -20%;
+  left: -10%;
+  background: var(--bg-gradient-1);
+}
+
+body::after {
+  bottom: -20%;
+  right: -10%;
+  background: var(--bg-gradient-2);
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  width: min(1280px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 1rem 0 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--display);
+  color: var(--headline);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(to right, #fff, #a1a1aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input {
+  font: inherit;
+  outline: none;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 768px) {
+  #root {
+    width: 100%;
+    padding: 0.5rem 1rem 2rem;
+  }
+}

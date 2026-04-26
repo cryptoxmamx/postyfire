@@ -1,0 +1,16 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fav-orange" x1="42" y1="38" x2="214" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A2A"/>
+      <stop offset="1" stop-color="#D84E1A"/>
+    </linearGradient>
+    <linearGradient id="fav-green" x1="72" y1="96" x2="194" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B966A"/>
+      <stop offset="1" stop-color="#0D5A41"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="216" height="216" rx="56" fill="#FFF8EE"/>
+  <rect x="28" y="28" width="200" height="200" rx="48" fill="url(#fav-orange)" opacity="0.12"/>
+  <path d="M106 104C106 100.134 109.134 97 113 97H143C146.866 97 150 100.134 150 104V123H163C169.075 123 172.231 130.207 168.124 134.66L132.124 173.66C129.954 176.011 126.046 176.011 123.876 173.66L87.8756 134.66C83.7691 130.207 86.9246 123 93 123H106V104Z" fill="url(#fav-green)"/>
+  <path d="M117 82.5C117 79.4624 120.321 77.5861 122.928 79.1554L149.12 94.922C151.63 96.4326 151.63 100.067 149.12 101.578L122.928 117.345C120.321 118.914 117 117.038 117 114V82.5Z" fill="url(#fav-orange)"/>
+</svg>

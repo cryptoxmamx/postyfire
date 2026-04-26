@@ -1,0 +1,17 @@
+{
+  "name": "SaveBox.online",
+  "short_name": "SaveBox",
+  "description": "SaveBox.online helps users download supported public video and audio links with a cleaner mobile-first workflow.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf4e8",
+  "theme_color": "#df5f1d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

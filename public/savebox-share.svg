@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="share-bg" x1="80" y1="70" x2="1120" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7EA"/>
+      <stop offset="1" stop-color="#F2E7D4"/>
+    </linearGradient>
+    <linearGradient id="share-orange" x1="266" y1="118" x2="535" y2="417" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A2A"/>
+      <stop offset="1" stop-color="#D84E1A"/>
+    </linearGradient>
+    <linearGradient id="share-green" x1="346" y1="234" x2="548" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B966A"/>
+      <stop offset="1" stop-color="#0D5A41"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#share-bg)"/>
+  <circle cx="1065" cy="112" r="98" fill="#117452" opacity="0.08"/>
+  <circle cx="120" cy="552" r="116" fill="#FF8A2A" opacity="0.08"/>
+  <rect x="88" y="88" width="1024" height="454" rx="42" fill="#FFFAF2" stroke="#E8DCC9"/>
+  <rect x="138" y="140" width="420" height="350" rx="38" fill="url(#share-orange)" opacity="0.12"/>
+  <path d="M232 230C232 209.013 249.013 192 270 192H391.805C401.892 192 411.565 196.006 418.698 203.139L494.861 279.302C501.994 286.435 506 296.108 506 306.195V396C506 416.987 488.987 434 468 434H270C249.013 434 232 416.987 232 396V230Z" fill="#FFF3E3"/>
+  <path d="M424 192V261C424 277.569 437.431 291 454 291H523" fill="#FFD9B7"/>
+  <path d="M327 262C327 255.373 332.373 250 339 250H398C404.627 250 410 255.373 410 262V305H434C444.414 305 449.824 317.356 442.781 324.994L373.781 399.994C370.062 404.035 363.938 404.035 360.219 399.994L291.219 324.994C284.176 317.356 289.586 305 300 305H327V262Z" fill="url(#share-green)"/>
+  <path d="M349 219C349 213.795 354.693 210.581 359.162 213.271L410.221 244.004C414.524 246.594 414.524 252.406 410.221 254.996L359.162 285.729C354.693 288.419 349 285.205 349 280V219Z" fill="url(#share-orange)"/>
+  <text x="610" y="224" fill="#DF5F1D" font-family="Space Grotesk, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="0.12em">SAVING VIDEO SHOULD FEEL SIMPLE</text>
+  <text x="610" y="304" fill="#18120D" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">savebox.online</text>
+  <text x="610" y="374" fill="#55493C" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="500">Download supported public videos and audio</text>
+  <text x="610" y="420" fill="#55493C" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="500">with a cleaner mobile-first experience.</text>
+  <rect x="610" y="468" width="220" height="62" rx="31" fill="#117452" opacity="0.12"/>
+  <text x="650" y="508" fill="#117452" font-family="Manrope, Arial, sans-serif" font-size="26" font-weight="700">Video + Audio</text>
+  <rect x="846" y="468" width="186" height="62" rx="31" fill="#DF5F1D" opacity="0.12"/>
+  <text x="883" y="508" fill="#DF5F1D" font-family="Manrope, Arial, sans-serif" font-size="26" font-weight="700">No API Keys</text>
+</svg>

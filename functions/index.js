@@ -221,7 +221,7 @@ async function ensureYtDlpBinary() {
         ? 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe'
         : process.platform === 'darwin'
           ? 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos'
-          : 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp'
+          : 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux'
 
     const response = await fetch(downloadUrl)
 
